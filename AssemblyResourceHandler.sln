@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetDimension.NanUI.AssemblyResourceHandler.Core", "NetDimension.NanUI.AssemblyResourceHandler\core\NetDimension.NanUI.AssemblyResourceHandler.Core\NetDimension.NanUI.AssemblyResourceHandler.Core.csproj", "{022300E4-B890-468C-A87B-FD8B11650D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDimension.NanUI.AssemblyResourceHandler", "NetDimension.NanUI.AssemblyResourceHandler\netfx\NetDimension.NanUI.AssemblyResourceHandler\NetDimension.NanUI.AssemblyResourceHandler.csproj", "{D8548EB9-37B5-467B-A4F1-71CF908DAD87}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AssemblyResourceHandler.SharedProject", "NetDimension.NanUI.AssemblyResourceHandler\shared\AssemblyResourceHandler.SharedProject\AssemblyResourceHandler.SharedProject.shproj", "{1F0F544C-5BC0-4A52-BBCF-1111D8D56B16}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		NetDimension.NanUI.AssemblyResourceHandler\shared\AssemblyResourceHandler.SharedProject\AssemblyResourceHandler.SharedProject.projitems*{022300e4-b890-468c-a87b-fd8b11650d1a}*SharedItemsImports = 5
+		NetDimension.NanUI.AssemblyResourceHandler\shared\AssemblyResourceHandler.SharedProject\AssemblyResourceHandler.SharedProject.projitems*{1f0f544c-5bc0-4a52-bbcf-1111d8d56b16}*SharedItemsImports = 13
+		NetDimension.NanUI.AssemblyResourceHandler\shared\AssemblyResourceHandler.SharedProject\AssemblyResourceHandler.SharedProject.projitems*{d8548eb9-37b5-467b-a4f1-71cf908dad87}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{022300E4-B890-468C-A87B-FD8B11650D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022300E4-B890-468C-A87B-FD8B11650D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022300E4-B890-468C-A87B-FD8B11650D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022300E4-B890-468C-A87B-FD8B11650D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8548EB9-37B5-467B-A4F1-71CF908DAD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8548EB9-37B5-467B-A4F1-71CF908DAD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8548EB9-37B5-467B-A4F1-71CF908DAD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8548EB9-37B5-467B-A4F1-71CF908DAD87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {342E04B5-B94C-42AA-AD98-74F777C7BF40}
+	EndGlobalSection
+EndGlobal
